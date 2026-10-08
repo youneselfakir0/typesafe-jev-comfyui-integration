@@ -1,0 +1,24 @@
+{
+  "prompt": {
+    "nodes": [
+      {
+        "class_type": "TypeSafeJevNode",
+        "name": "TypeSafe Jev Decision",
+        "_id": 1,
+        "inputs": {
+          "state": "Customer says payment failed after 3 days and needs refund",
+          "api_key": "",
+          "question_id": "routing_decision",
+          "instructions": "Which team should handle this ticket?",
+          "question_type": "choice",
+          "criteria_json": "{\"billing\": \"Payments, invoicing, refunds\", \"technical\": \"Bugs, outages, integrations\", \"sales\": \"Pricing, upgrades, new accounts\"}"
+        }
+      }
+    ],
+    "links": [],
+    "outputs": []
+  },
+  "extra": {
+    "client_id": "<random>"
+  }
+}

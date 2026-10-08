@@ -1,0 +1,24 @@
+{
+  "prompt": {
+    "nodes": [
+      {
+        "class_type": "TypeSafeJevNode",
+        "name": "TypeSafe Jev Decision",
+        "_id": 1,
+        "inputs": {
+          "state": "Customer says payment failed after 3 days and needs refund",
+          "api_key": "",
+          "question_id": "frustration_score",
+          "instructions": "How frustrated is the customer?",
+          "question_type": "score",
+          "criteria_json": "[\"Calm\", \"Frustrated\", \"Very angry\"]"
+        }
+      }
+    ],
+    "links": [],
+    "outputs": []
+  },
+  "extra": {
+    "client_id": "<random>"
+  }
+}
